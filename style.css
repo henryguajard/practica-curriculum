@@ -1,0 +1,53 @@
+/*1{background-color: 6bd425;}
+hfondo de color */
+/*h2{ font-family: 'Times New Roman', Times, serif;}
+cambio de fuente */
+*{
+    padding: 0%;
+    margin: 0%;
+    /*relleno y margen de la pagina */
+}
+#nav01{
+    color: blueviolet;
+    text-align: center;
+    background-color: black;
+    font-size: 200%;
+
+
+}
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+#nav02{
+    background-image: url(https://i.pinimg.com/originals/31/30/f1/3130f126b285a41d00af4873b18d4fc5.jpg);
+    color: aliceblue;
+    text-align: left;
+    font-size: 200%;
+}
+.imgresumen{
+    border: solid 1px;
+    color: blueviolet;
+    text-align: center;
+   position: absolute;
+   top: 140px;left: 950px ;
+}
+nav{
+    text-align:right;
+}
+#nav01{
+    border: solid 5px;
+    color: blueviolet;
+    
+}
+.imgnav{
+    border: solid 1px;
+    color: blueviolet;
+    position: absolute;
+    top: 15px;left: 950px;
+}
+h1 h2{
+    display:inline-block
+}

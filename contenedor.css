@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+div{
+    border: solid 1px #d81c1c;
+    height: 100px;
+    height: 100px;
+
+}
+nav{
+    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+grid-template-rows: repeat(5,1fr);
+grid-template-areas: 
+"l01 l01 l01 l01"
+"l02 l02 l02 l02"
+"l03 l03 l03 l03"
+"l04 l05 l05 l05"
+"l06 l06 l06 l06"
+"l07 l07 l08 l08"
+"l09 l09 l09 l09";
+
+
+}
+.l01{
+    grid-row: 1/5;
+    grid-area: l01;
+    height: auto;
+}
+.l02{
+    grid-row: 1/5;
+    grid-area: l02;
+    height: auto;
+}
+.l03{
+    grid-row: 1/5;
+    grid-area: l03;
+    height: auto;
+}
+.l04{
+   grid-column: 1/3;
+   grid-area: l04;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+}
+.l05{
+    grid-column: 1/4;
+    grid-area: l05;
+    height: auto;
+}
+.l06{
+    grid-row: 1/5;
+    grid-area: l06;
+    height: auto;
+}
+.l07{
+    grid-column: 1/3;
+    grid-area: l07;
+    height: auto;
+}
+.l08{
+    grid-column: 1/3;
+    grid-area: l08;
+    height: auto;
+}
+.l09{
+    grid-row: 1/5;
+    grid-area: l09;
+    height: auto;
+
+}

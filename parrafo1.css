@@ -1,0 +1,20 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}/* con *todo el documento/ font-family=cambiar fuente*/
+p.grande{font-size: x-large;}/*font- size= tamaño de texto puedes elegir/ si quieres colocarlo en un lado en particular 
+en HTML debes crear un atributo class para vincularlo*/
+p.cursiva{font-style: oblique;}/*font-stile= texto en cursiva*/
+p.grueso{ font-weight: bold;}/*toda la fuente gruesa*/
+p.pequenasm{font-variant: small-caps;}/*todo la fuente pequeñas mayusculas*/
+p.collor{color: crimson;}/*color dar color al texto*/
+p.alineacion{text-align: right;}/*alineacion horizontal del texto puede ser: left,rigt,center
+ o (justify = cada linea es estirada para de tengan igual anchura y los margenes sean rectos*/
+p.vertical{vertical-align: middle;}/* establece alineacion vertical de un elemento ya sea top:superior,
+ middle:medio y bottom:inferior o los valores baseline,sub,super, % y px* las reglas de estilo display:inline-table
+ y display:table-cell son aplicadas para hacer quela propiedad vertical-align funcione en elementos divs*/
+p.decoration{text-decoration: overline underline line-through;}/*text decoration lineas en las palabras puede ser arriba abajo o al centro
+ text-decoration blink texto parpadee,*/
+p.espaciohorizontal{ text-indent: 50px;}/*espacio horizontal es dejado antes de comenzar el texto se coloca en px*/
+h2{text-shadow: 5px 5px 4px blueviolet;}/*añade sombras al texto valores horizontal vertical y desenfoque tambien puede tener color*/
+p.mayuscula{text-transform: capitalize;}/*cada palabra aparecera en mayusculas, uppercase todo mayus, lowercase todo minuscula*/
+p.espacio{ letter-spacing: 4px;}/*espacio adicional tambien pueden ser valores negativos*/
